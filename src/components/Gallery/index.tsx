@@ -6,11 +6,7 @@ import fechar from '../../assets/images/fechar.png'
 import Section from '../Section'
 import { Items, Item, Action, Modal, ModalContent } from './styles'
 import { useState } from 'react'
-
-interface GalleryItem {
-  type: 'image' | 'video'
-  url: string
-}
+import { GalleryItem } from '../../pages/Home'
 
 const mock: GalleryItem[] = [
   {
