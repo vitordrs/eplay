@@ -1,5 +1,5 @@
 import Button from '../Button'
-import Hogwards from '../../assets/images/fundo_hogwarts.png'
+// import Hogwards from '../../assets/images/fundo_hogwarts.png'
 import { close, remove } from '../../store/reducers/cart'
 
 import {

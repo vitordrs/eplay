@@ -16,9 +16,10 @@ export const Action = styled.div`
 `
 export const Items = styled.ul`
   display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
 `
 export const Item = styled.li`
-  margin-right: 16px;
   position: relative;
 
   > img {
