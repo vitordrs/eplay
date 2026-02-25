@@ -335,9 +335,9 @@ const Checkout = () => {
                       onChange={form.handleChange}
                       onBlur={form.handleBlur}
                     >
-                      <option value="">1x de R$300,00</option>
-                      <option value="">2x de R$150,00</option>
-                      <option value="">3x de R$100,00</option>
+                      <option value="1">1x de R$300,00</option>
+                      <option value="2">2x de R$150,00</option>
+                      <option value="3">3x de R$100,00</option>
                     </select>
                     <small>
                       {getErrorMessage(
