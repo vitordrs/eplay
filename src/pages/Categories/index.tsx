@@ -1,4 +1,3 @@
-import Loader from '../../components/Loader'
 import ProductList from '../../components/ProductList'
 
 import {
